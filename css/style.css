@@ -1,0 +1,81 @@
+.jumbotron{
+text-align: center;
+background-color:rgba(165, 223, 223, 0.87);
+}
+.gridmap{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.navbar{
+    display: flex;
+    grid-gap: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+h4{
+    text-align:  center;
+    align-items: center;
+    font-size: 40px;
+}
+h4.dark {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+li{
+    overflow: hidden;
+}
+ul{
+    overflow: hidden;
+}
+a{
+    color: black;
+}
+.name{
+    display: flex;
+    justify-content: left;
+}
+.home{
+    display: flex;
+    justify-content: right;
+}
+.vaardigheden{
+    display: flex;
+    justify-content: right;
+}
+.projecten{
+    display: grid;
+    grid-area: 1/6;
+}
+.contact{
+    display: flex;
+    grid-area: dis;
+}
+
+.aboutme{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img{
+    width: auto;
+    height: 400px;
+    justify-content:space-evenly;
+  }
+.text{
+    display: flex;
+    
+}  
+.tekst1{
+    justify-content:space-evenly;
+    margin:auto;
+    text-align: left;
+}
+.tekst2{
+    padding: 20px;
+    justify-content:space-evenly; 
+    margin:auto;
+    text-align:justify;  
+}
+
